@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jaime
+    last_name: Vega
+    
+    # Define yourself in 4-5 words
+    motto: Practicar, equivocarse, aprender de los errores y mejorar.
+    
+    # Focus
+    focus: Desarrollo web full stack y análisis de datos.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Analista de Datos con experiencia en Business Intelligence, creación de reportes en Power BI y manejo de datos con Python. 
+      Actualmente cursando el Bootcamp Full Stack de 4Geeks Academy para fortalecer mis habilidades en desarrollo web. 
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/235423382?v=4
+
+    # Contact Information
+    email: jaime.vegah@outlook.com 
+    phone: 965335163 
+    linkedin: https://www.linkedin.com/in/jaime-andr%C3%A9s-vega-hern%C3%A1ndez-106087232/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Drokko-Dev
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: English
+        level: Básico
+
+    # Interests or hobbies
+    interests:
+      - item: Viajar
+
+      - item: Deporte
+
+      - item: Tecnología
+
+# Your previous education
+education:
+    - degree: Bootcamp Full Stack Developer
+      university: 4Geeks Academy
+      time: 2025 - Present
+      details: |
+        Aprendizaje práctico en tecnologías de desarrollo web, incluyendo HTML, CSS, JavaScript, React, Python y Flask. Desarrollo de proyectos integrales front-end y back-end.
+
+    - degree: Diplomado en Modelamiento y Análisis de Datos
+      university: Universidad Tecnológica Metropolitana (UTEM)
+      time: 2025 - 2025
+      details: |
+        Programa enfocado en la aplicación de modelos estadísticos, herramientas de análisis y visualización de datos para la toma de decisiones en entornos empresariales.
+    
+    - degree: Ingeniería Civil Industrial
+      university: Universidad Técnica Federico Santa María (UTFSM)
+      time: 2016 - 2022
+      details: |
+        Formación integral en gestión, análisis cuantitativo y optimización de procesos productivos y estratégicos en organizaciones.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Analista de Datos - Business Intelligence
+      time: 2022 - Present
+      company: Antalis Chile
+      details: |
+         Encargado del análisis y visualización de información comercial mediante Power BI, apoyando la toma de decisiones estratégicas del área comercial.
+
+          - Creación de dashboards y reportes dinámicos en Power BI.  
+          - Automatización de procesos y limpieza de datos con Python.  
+          - Análisis de KPI comerciales y seguimiento de desempeño mensual.  
+          - Participación en reuniones de planificación y control junto al equipo comercial.
+          
+# Your project portfolio
+projects:
+    intro: >
+      Algunos de los proyectos desarrollados durante el Bootcamp Full Stack de 4Geeks Academy y en mi aprendizaje personal en desarrollo web.
+
+
+    assignments:
+      - title: Instagram Photo Feed
+        link: "https://github.com/Drokko-Dev/4Geek-Clase4-Instagram-Photo-Feed-Bootstrap"
+        tagline: "Diseño de interfaz de tipo feed de Instagram utilizando HTML, CSS y Bootstrap."
+
+      - title: Interfaz de usuario con HTML y CSS
+        link: "https://github.com/Drokko-Dev/4Geek-Clase2-Tarea-Interfaz"
+        tagline: "Creación de una interfaz web simple aplicando principios de diseño responsive con HTML y CSS."
+
+
+skills:
+    toolset:
+      - name: Power BI
+        level: 90%
+
+      - name: Excel
+        level: 90%
+
+      - name: DAX
+        level: 80%
+
+      - name: Python
+        level: 75%
+
+      - name: R
+        level: 70%
+
+      - name: SQL
+        level: 50%
+
+      - name: HTML/CSS
+        level: 50%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: React
+        level: 30%
